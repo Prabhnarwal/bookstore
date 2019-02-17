@@ -45,9 +45,9 @@ public class book {
     }
 
     public book(String t, Double pr, int y, long isbn) {
-        t = title;
-        pr = price;
-        y = year;
-        isbn = ISBN;
+        title=t;
+        price=pr;
+        year=y;
+        ISBN=isbn;
     }
 }

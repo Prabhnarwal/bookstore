@@ -9,10 +9,16 @@ public class Bookstore1 {
         b.settitle("Hello");
         b.setprice(13.25);
         b.setyear(2019);
-        b.setISBN(45679997);
-        
+        b.setISBN(45679997);       
         System.out.println(b.gettitle() + " " + b.getprice() + " " + b.getyear()+" "+b.getISBN());
         b.Display("abc",24.50,2017,9090909);
+        
+        
+        Publisher p=new Publisher("ABC","Montreal");
+        p.setPname("abc");
+        p.setlocation("Brampton");
+        System.out.println(p.getPname() + " " +p.getlocation());
+        p.Display1("hello","Montreal");
     }
     
 }

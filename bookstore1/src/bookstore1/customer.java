@@ -17,8 +17,8 @@ public class customer {
 
     public customer(int cusID, Date regDate) {
 
-        cID = cusID;
-        registerDate = regDate;
+       cusID=cID;
+       regDate=registerDate;
     }
 
     int getcID() {

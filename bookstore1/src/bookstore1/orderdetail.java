@@ -3,21 +3,21 @@ package bookstore1;
 
 public class orderdetail {
 
-    String quantity;
+    int quantity;
 
-    void setquantity(String Quantity) {
+    void setquantity(int Quantity) {
         Quantity = quantity;
     }
 
-    String getQuantity() {
+    int getQuantity() {
         return quantity;
     }
 
-    public orderdetail(String Quantity) {
+    public orderdetail(int Quantity) {
         quantity = Quantity;
     }
 
-    void Display5(String Quantity) {
+    void Display5(int Quantity) {
         System.out.println(Quantity);
     }
 }

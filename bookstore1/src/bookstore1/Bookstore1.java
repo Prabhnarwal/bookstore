@@ -46,5 +46,13 @@ public class Bookstore1 {
         od.setquantity(7);
         System.out.println(od.getQuantity());
         od.Display5(10);
+       
+        order or = new order(98,tempdate,78);
+        or.setorderid(70);
+        or.setorderdate(tempdate);
+        or.setordercId(98);
+        System.out.println(or.getorderid()+" "+or.getdate()+" "+or.getcId());
+        or.display(10,tempdate,67);
+        
     }
 }

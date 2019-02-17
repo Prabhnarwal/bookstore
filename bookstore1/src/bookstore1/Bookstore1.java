@@ -1,6 +1,8 @@
 
 package bookstore1;
 
+import java.util.Date;
+
 public class Bookstore1 {
 
     public static void main(String[] args) {
@@ -19,6 +21,15 @@ public class Bookstore1 {
         p.setlocation("Brampton");
         System.out.println(p.getPname() + " " +p.getlocation());
         p.Display1("hello","Montreal");
+        
+        Date tempdate = new Date(03 - 02 - 2019);
+        customer c = new customer(101,tempdate);
+        c.setcID(111);
+        c.setregisterDate(tempdate);
+        
+        System.out.println(c.getcID() + " " + c.getregisterDate());
+        c.Display2(112, tempdate);
+    }
     }
     
-}
+

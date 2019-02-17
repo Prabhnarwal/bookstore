@@ -26,14 +26,25 @@ public class Bookstore1 {
         c.setregisterDate(tempdate);
         System.out.println(c.getcID() + " " + c.getregisterDate());
         c.Display2(112, tempdate);
-        
+
         personClass pc = new personClass("Prabhjot", "Narwal", "Montreal", "narwalprabhjot@gmail.com", 9898989);
         pc.setfirstname("Prabhjot");
         pc.setlastname("Narwal");
         pc.setaddress("Montreal");
         pc.setemail("narwalprabhjot@gmail.com");
         pc.setphoneno(90909090);
-        System.out.println(pc.getfirstname()+ " " + pc.getlastname() + " " + pc.getaddress() + " " + pc.getemail()+" "+pc.getphoneno());
-        pc.Display3("abc", "cde", "fgh","ijkl@gmail.com", 9090909);
+        System.out.println(pc.getfirstname() + " " + pc.getlastname() + " " + pc.getaddress() + " " + pc.getemail() + " " + pc.getphoneno());
+        pc.Display3("abc", "cde", "fgh", "ijkl@gmail.com", 9090909);
+
+        author a = new author("Anna Karenina", "Leo Tolstoy");
+        a.setbookname("Madame Bovary");
+        a.setauthorname("Gustave Flaubert");
+        System.out.println(a.getBookname() + " " + a.getAuthorname());
+        a.Display4("Middlemarch", "George Eliot");
+
+        orderdetail od = new orderdetail(5);
+        od.setquantity(7);
+        System.out.println(od.getQuantity());
+        od.Display5(10);
     }
 }

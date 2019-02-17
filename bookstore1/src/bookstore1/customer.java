@@ -17,8 +17,8 @@ public class customer {
 
     public customer(int cusID, Date regDate) {
 
-       cusID=cID;
-       regDate=registerDate;
+        cID = cusID;
+        registerDate = regDate;
     }
 
     int getcID() {
@@ -29,7 +29,7 @@ public class customer {
         return registerDate;
     }
 
-    void Display(int cusID, Date regDate) {
+    void Display2(int cusID, Date regDate) {
         System.out.println(cusID + " " + regDate);
     }
 

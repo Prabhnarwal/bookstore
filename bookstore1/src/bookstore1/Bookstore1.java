@@ -1,6 +1,7 @@
 package bookstore1;
 
 import java.util.Date;
+import java.util.Scanner;
 
 public class Bookstore1 {
 
@@ -54,5 +55,12 @@ public class Bookstore1 {
         System.out.println(or.getorderid()+" "+or.getdate()+" "+or.getcId());
         or.display(10,tempdate,67);
         
+         System.out.print("Enter a name");
+         Scanner sc=new Scanner(System.in);
+         String s=sc.next();
+         int ln=s.length();
+         System.out.println(s.charAt(0)+s.charAt(ln-1));
+         
+         
     }
 }

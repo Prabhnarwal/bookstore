@@ -9,7 +9,7 @@ package bookstore1;
  *
  * @author 1894830
  */
-public class author {
+public class author extends personClass {
     
     String bookname;
     String authorname;
@@ -31,9 +31,10 @@ public class author {
         return authorname;
     }
 
-    public author(String BookName, String Authorname) {
-        bookname = BookName;
-        authorname = Authorname;
+    public author(String Fname,String Lname,String Address,String email,long Pno) {
+
+        super(Fname,Lname,Address,email,Pno);
+    
     }
 
     void Display4(String BookName, String Authorname) {

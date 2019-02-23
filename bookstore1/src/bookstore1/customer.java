@@ -2,7 +2,7 @@ package bookstore1;
 
 import java.util.Date;
 
-public class customer {
+public class customer extends personClass {
 
     int cID;
     Date registerDate;
@@ -15,10 +15,9 @@ public class customer {
         regDate = registerDate;
     }
 
-    public customer(int cusID, Date regDate) {
+    public customer(String Fname,String Lname,String Address,String email,long Pno) {
 
-        cID = cusID;
-        registerDate = regDate;
+        super(Fname,Lname,Address,email,Pno);
     }
 
     int getcID() {

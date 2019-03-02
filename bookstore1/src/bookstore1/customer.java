@@ -15,7 +15,7 @@ public class customer extends personClass {
         regDate = registerDate;
     }
 
-    public customer(String Fname,String Lname,String Address,String email,long Pno) {
+    public customer(String Fname,String Lname,String Address,String email,long Pno,int cusID, Date regDate) {
 
         super(Fname,Lname,Address,email,Pno);
     }

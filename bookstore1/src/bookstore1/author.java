@@ -31,7 +31,7 @@ public class author extends personClass {
         return authorname;
     }
 
-    public author(String Fname,String Lname,String Address,String email,long Pno) {
+    public author(String Fname,String Lname,String Address,String email,long Pno,String BookName, String Authorname ) {
 
         super(Fname,Lname,Address,email,Pno);
     

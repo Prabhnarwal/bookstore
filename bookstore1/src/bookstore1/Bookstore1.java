@@ -22,7 +22,8 @@ public class Bookstore1 {
         p.Display1("hello", "Montreal");
 
         Date tempdate = new Date(03 - 02 - 2019);
-        customer c = new customer(101, tempdate);
+        
+        customer c = new customer("Prabhjot", "Narwal","Montreal", "narwalprabhjot@gmail.com", 9898989, 101, tempdate);
         c.setcID(111);
         c.setregisterDate(tempdate);
         System.out.println(c.getcID() + " " + c.getregisterDate());
@@ -37,7 +38,7 @@ public class Bookstore1 {
         System.out.println(pc.getfirstname() + " " + pc.getlastname() + " " + pc.getaddress() + " " + pc.getemail() + " " + pc.getphoneno());
         pc.Display3("abc", "cde", "fgh", "ijkl@gmail.com", 9090909);
 
-        author a = new author("Anna Karenina", "Leo Tolstoy");
+        author a = new author("Prabhjot", "Narwal","Montreal", "narwalprabhjot@gmail.com", 9898989,"Anna Karenina", "Leo Tolstoy");
         a.setbookname("Madame Bovary");
         a.setauthorname("Gustave Flaubert");
         System.out.println(a.getBookname() + " " + a.getAuthorname());

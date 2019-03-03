@@ -42,7 +42,7 @@ public class persontest {
         Date newDate = new Date();
         String fName = "Prabhjot";
         String expectedResult = "19-03-O-PT";
-        String realResult = bookstore1.customer.createId(newDate,fName);
+        String realResult = bookstore1.personClass.createId(newDate,fName);
         assertEquals(expectedResult, realResult);}
 }
 

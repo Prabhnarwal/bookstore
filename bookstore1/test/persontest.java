@@ -36,15 +36,13 @@ public class persontest {
     @After
     public void tearDown() {
     }
-@Test
+
+       @Test
     public void createIDTest() {
-        System.out.println("Test for personclass");
+        System.out.println("Test for personClass");
         Date newDate = new Date();
         String Fname = "Prabhjot";
         String expectedResult = "19-03-O-PT";
-        String realResult = bookstore1.personClass.createId(newDate,Fname);
+        String realResult = bookstore1.author.createId(newDate,Fname);
         assertEquals(expectedResult, realResult);}
 }
-
- 
-

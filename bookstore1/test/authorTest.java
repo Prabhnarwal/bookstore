@@ -43,6 +43,6 @@ public class authorTest {
         Date newDate = new Date();
         String bookName = "Madame Bovary";
         String expectedResult = "19-03-O-MY";
-        String realResult = bookstore1.customer.createId(newDate,bookName);
+        String realResult = bookstore1.author.createId(newDate,bookName);
         assertEquals(expectedResult, realResult);}
 }

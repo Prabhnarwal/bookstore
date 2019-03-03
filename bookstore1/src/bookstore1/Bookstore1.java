@@ -21,8 +21,7 @@ public class Bookstore1 {
         System.out.println(p.getPname() + " " + p.getlocation());
         p.Display1("hello", "Montreal");
 
-        Date tempdate = new Date(03 - 02 - 2019);
-        
+        Date tempdate = new Date("yyyy-MM-dd");
         customer c = new customer("Prabhjot", "Narwal","Montreal", "narwalprabhjot@gmail.com", 9898989, 101, tempdate);
         c.setcID(111);
         c.setregisterDate(tempdate);
@@ -54,14 +53,7 @@ public class Bookstore1 {
         or.setorderdate(tempdate);
         or.setordercId(98);
         System.out.println(or.getorderid()+" "+or.getdate()+" "+or.getcId());
-        or.display(10,tempdate,67);
-        
-         System.out.print("Enter a name");
-         Scanner sc=new Scanner(System.in);
-         String s=sc.next();
-         int ln=s.length();
-         System.out.println(s.charAt(0)+s.charAt(ln-1));
-         
+        or.display(10,tempdate,67);   
          
     }
 }

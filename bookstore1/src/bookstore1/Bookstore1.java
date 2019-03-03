@@ -1,6 +1,7 @@
 package bookstore1;
 
 import java.util.Date;
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class Bookstore1 {
@@ -21,7 +22,8 @@ public class Bookstore1 {
         System.out.println(p.getPname() + " " + p.getlocation());
         p.Display1("hello", "Montreal");
 
-        Date tempdate = new Date("yyyy-MM-dd");
+        Date tempdate = new Date();
+        
         customer c = new customer("Prabhjot", "Narwal","Montreal", "narwalprabhjot@gmail.com", 9898989, 101, tempdate);
         c.setcID(111);
         c.setregisterDate(tempdate);

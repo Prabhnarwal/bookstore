@@ -40,9 +40,9 @@ public class persontest {
     public void createIDTest() {
         System.out.println("Test for personclass");
         Date newDate = new Date();
-        String fName = "Prabhjot";
+        String Fname = "Prabhjot";
         String expectedResult = "19-03-O-PT";
-        String realResult = bookstore1.personClass.createId(newDate,fName);
+        String realResult = bookstore1.personClass.createId(newDate,Fname);
         assertEquals(expectedResult, realResult);}
 }
 
